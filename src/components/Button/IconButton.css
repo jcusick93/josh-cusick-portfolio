@@ -1,0 +1,11 @@
+.icon-button {
+  display: flex;
+  cursor: pointer;
+  color: var(--primary);
+  background-color: transparent;
+  font-size: 16px;
+  height: 32px;
+  width: 32px;
+  border: solid 1px var(--primary);
+  border-radius: 2px;
+}

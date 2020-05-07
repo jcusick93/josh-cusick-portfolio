@@ -1,0 +1,29 @@
+.toggle-button {
+  outline: none;
+  margin-left: 32px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  transition: all 150ms ease-in-out;
+}
+
+.toggle-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  border: none;
+}
+
+.toggle-button:active {
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 991px) {
+  .toggle-button {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}

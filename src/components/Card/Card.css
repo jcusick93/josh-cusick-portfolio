@@ -1,0 +1,38 @@
+.card {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--surface-03);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 24px;
+  transition: box-shadow 150ms ease-in-out;
+  width: auto;
+
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.card:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  padding: 16px;
+  color: var(--text-vlc);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.card-title h1 {
+  text-transform: lowercase;
+  color: var(--text-lc);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.card-link {
+  float: right;
+}

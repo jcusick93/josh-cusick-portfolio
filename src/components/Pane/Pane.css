@@ -1,0 +1,31 @@
+.pane {
+  background-color: var(--surface-01);
+  box-shadow: 0 19px 58px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px 24px 64px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 991px) {
+  .pane {
+    padding: 24px 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: none;
+  }
+}

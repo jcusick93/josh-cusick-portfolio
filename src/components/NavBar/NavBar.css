@@ -1,0 +1,116 @@
+/* style for NavBar component */
+.nav-bar-container {
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 32px 24px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  font-weight: 500;
+}
+.nav-bar-container a:active {
+  color: var(--text-hc);
+}
+.nav-logo {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--text-vlc);
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.nav-logo:hover {
+  color: var(--text-hc);
+}
+
+.nav-logo:visited {
+  color: var(--text-hc);
+}
+
+.nav-links-group {
+  position: relative;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  color: var(--text-vlc);
+  margin-left: 32px;
+}
+
+.nav-link:hover {
+  color: var(--text-hc);
+}
+
+@media screen and (max-width: 991px) {
+  .nav-bar-container {
+    align-items: flex-start;
+  }
+
+  .nav-logo {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    margin-left: 0px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+
+  .nav-links-group {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
