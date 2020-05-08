@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deployed to Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71d93d8c-14d1-421c-ac33-4c8a76636e1c/deploy-status)](https://app.netlify.com/sites/priceless-mclean-c7a402/deploys)
+
 ## Welcome
 
 <img src="https://github.com/jcusick93/josh-cusick-portfolio/blob/master/src/Images/Thumbnail.png?raw=true" />
