@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Welcome
 
+<img src="https://github.com/jcusick93/josh-cusick-portfolio/blob/master/src/Images/Thumbnail.png?raw=true" />
+
 ## Available Scripts
 
 In the project directory, you can run:
