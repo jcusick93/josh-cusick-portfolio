@@ -1,7 +1,8 @@
 .footer {
   color: var(--text-vlc);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 150%;
   position: relative;
   z-index: 10;
   display: -webkit-box;
@@ -35,20 +36,41 @@
   flex-direction: row;
 }
 .social-link {
-  margin-left: 16px;
+  text-align: right;
+  margin-left: 24px;
   color: var(--primary);
 }
+.figma-logo {
+  height: 14px;
+}
 
+.react {
+  color: #53c1de;
+}
+
+.status-container {
+  margin-bottom: 16px;
+}
+
+.status-copyright-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* media query for mobile */
 @media screen and (max-width: 991px) {
   .footer {
+    align-items: flex-start;
     flex-direction: column-reverse;
   }
+
   .social-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 32px;
   }
+
   .social-link {
-    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 24px;
+    text-align: center;
   }
 }
