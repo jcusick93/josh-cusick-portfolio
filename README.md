@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Deployed to Netlify
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/71d93d8c-14d1-421c-ac33-4c8a76636e1c/deploy-status)](https://app.netlify.com/sites/priceless-mclean-c7a402/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71d93d8c-14d1-421c-ac33-4c8a76636e1c/deploy-status)](https://app.netlify.com/sites/josh-cusick-portfolio/deploys)
 
 ## Welcome
 
