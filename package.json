@@ -10,6 +10,7 @@
     "gatsby-plugin-use-dark-mode": "^1.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-loading-skeleton": "^2.0.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "ui-box": "^3.2.0",
@@ -19,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "import": "react-scripts import"
   },
   "eslintConfig": {
     "extends": "react-app"

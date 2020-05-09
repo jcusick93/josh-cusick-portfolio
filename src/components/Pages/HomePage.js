@@ -20,28 +20,28 @@ const HomePage = () => {
           badgeText="Design System"
           title="Compass Design System"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          link="read case study"
+          linkText="read case study"
         />
         <Card
           image={Img2}
           badgeText="Mobile App"
           title="Backyard App"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          link="read case study"
+          linkText="read case study"
         />
         <Card
           image={Img3}
           badgeText="Website"
           title="Fairworlds.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          link="see website"
+          linkText="see website"
         />
         <Card
           image={Img4}
           badgeText="Website"
           title="Kimweed.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          link="see website"
+          linkText="see website"
         />
       </div>
     </div>

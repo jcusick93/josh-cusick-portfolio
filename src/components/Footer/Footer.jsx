@@ -14,7 +14,9 @@ const Footer = () => (
         />
       </a>
 
-      <span>© 2020 Josh Cusick 💅🏻 in Figma + 🛠 in React</span>
+      <span role="img" aria-label="emoji">
+        © 2020 Josh Cusick 💅🏻 in Figma + 🛠 in React
+      </span>
     </div>
 
     <div className="social-container">

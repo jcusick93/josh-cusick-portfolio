@@ -1,6 +1,8 @@
 :root {
   --primary-lighter: #e8e9fc;
   --primary-darker: #0004b0;
+  --skeleton-background: #eff1f3;
+  --skeleton-highlight: #e2e2e2;
 }
 
 [data-theme="light"] {
@@ -34,24 +36,27 @@
 body {
   color: var(--text-hc);
   background-color: var(--surface-00);
-  transition: all 300ms ease-in-out;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  line-height: 150%;
 }
 
 h1 {
+  text-transform: lowercase;
   color: var(--text-hc);
   font-weight: 600;
   font-size: 48px;
   line-height: 150%;
 }
 h2 {
+  text-transform: lowercase;
   color: var(--text-lc);
   font-weight: 500;
   font-size: 40px;
   line-height: 150%;
 }
 h3 {
+  text-transform: lowercase;
   color: var(--text-vlc);
   font-weight: 500;
   font-size: 32px;
@@ -82,4 +87,10 @@ a:hover {
 
 .msft {
   color: #7fba00;
+}
+
+.body-text {
+  font-size: 16px;
+  max-width: 80ch;
+  color: var(--text-lc);
 }
