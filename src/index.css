@@ -9,8 +9,8 @@
   --primary: #1444e3;
   --on-primary: #ffffff;
   --text-hc: #121624;
-  --text-lc: rgba(18, 22, 36, 0.8);
-  --text-vlc: rgba(18, 22, 36, 0.6);
+  --text-lc: #414550;
+  --text-vlc: #71737c;
   --surface-00: #e5e5e5;
   --surface-01: #f2f2f2;
   --surface-02: #ffffff;
@@ -23,8 +23,8 @@
   --primary: #6f80ee;
   --on-primary: #121624;
   --text-hc: #ffffff;
-  --text-lc: rgba(255, 255, 255, 0.8);
-  --text-vlc: rgba(255, 255, 255, 0.6);
+  --text-lc: #d0d0d3;
+  --text-vlc: #a0a2a7;
   --surface-00: #121624;
   --surface-01: #232633;
   --surface-02: #272b38;
@@ -90,7 +90,8 @@ a:hover {
 }
 
 .body-text {
-  font-size: 16px;
-  max-width: 80ch;
+  font-size: 18px;
+  line-height: 175%;
+
   color: var(--text-lc);
 }

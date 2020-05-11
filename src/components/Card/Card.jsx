@@ -16,7 +16,7 @@ function Card(props) {
 
         <Badge varient="website" margin={16} badgeText={props.badgeText} />
 
-        <Image height="32vh" image={props.image} />
+        <Image height="24vh" image={props.image} />
         {/* <Skeleton height="32vh" /> */}
         <div className="card-title">
           <h1>{props.title || <Skeleton width={140} />}</h1>
