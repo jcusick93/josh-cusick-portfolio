@@ -10,7 +10,7 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 959px) {
   .pane {
     padding: 24px 16px;
     -webkit-box-orient: vertical;

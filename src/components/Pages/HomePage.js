@@ -9,11 +9,11 @@ const HomePage = () => {
   return (
     <div>
       <h1>
-        hello there i’m josh, a ux designer at{" "}
-        <span className="msft">microsoft</span>. i build design systems & i love
+        Hello there I’m Josh, a UX Designer at{" "}
+        <span className="msft">Microsoft</span>. I build design systems & I love
         my corgi.
       </h1>
-      <h3 style={{ marginTop: 64 }}>featured projects</h3>
+      <h3 style={{ marginTop: 64 }}>Featured Projects</h3>
       <div className="grid">
         <Card
           image={Img1}

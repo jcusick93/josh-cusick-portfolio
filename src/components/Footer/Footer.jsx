@@ -21,16 +21,16 @@ const Footer = () => (
 
     <div className="social-container">
       <a className="social-link" href="/">
-        LinkedIn
+        Li
       </a>
       <a className="social-link" href="/">
-        Medium
+        Me
       </a>
       <a className="social-link" href="/">
-        Dribbble
+        Db
       </a>
       <a className="social-link" href="/">
-        GitHub
+        Gh
       </a>
     </div>
   </div>

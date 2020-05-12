@@ -6,19 +6,15 @@ import Toggle from "../Toggle/Toggle";
 const NavBar = () => (
   <div className="nav-bar-container">
     <NavLink to="/" className="nav-logo">
-      josh cusick
+      Josh Cusick
     </NavLink>
     <div className="nav-links-group">
       <NavLink to="/" className="nav-link">
-        home
+        Projects
       </NavLink>
       <NavLink to="/about" className="nav-link">
-        about
+        About
       </NavLink>
-      <NavLink to="/contact" className="nav-link">
-        contact
-      </NavLink>
-
       <Toggle />
     </div>
   </div>

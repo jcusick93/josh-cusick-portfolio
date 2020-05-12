@@ -1,5 +1,6 @@
 /* style for NavBar component */
 .nav-bar-container {
+  overflow: hidden;
   position: relative;
   z-index: 10;
   display: -webkit-box;
@@ -61,10 +62,6 @@
   color: var(--text-hc);
 }
 
-.nav-logo:visited {
-  color: var(--text-hc);
-}
-
 .nav-links-group {
   position: relative;
   z-index: 9999;
@@ -87,7 +84,7 @@
   line-height: 32px;
   text-decoration: none;
   color: var(--text-vlc);
-  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .nav-link:hover {
@@ -96,20 +93,20 @@
 
 @media screen and (max-width: 991px) {
   .nav-bar-container {
-    align-items: flex-start;
+    padding: 32px 16px;
+    align-items: center;
+    flex-direction: column;
   }
 
-  /* .nav-logo {
-    font-size: 20px;
-  } */
-
   .nav-link {
-    margin-left: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-right: 24px;
   }
 
   .nav-links-group {
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 32px;
+    margin-right: 0px;
   }
 }

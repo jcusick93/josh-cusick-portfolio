@@ -37,7 +37,7 @@
 }
 .social-link {
   text-align: right;
-  margin-left: 24px;
+  margin-left: 32px;
   color: var(--primary);
 }
 .figma-logo {
@@ -58,19 +58,27 @@
 }
 
 /* media query for mobile */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 959px) {
   .footer {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column-reverse;
   }
 
   .social-container {
     margin-bottom: 32px;
+    align-self: center;
   }
 
   .social-link {
-    margin-left: 0px;
-    margin-right: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+  }
+
+  .status-copyright-container {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 }

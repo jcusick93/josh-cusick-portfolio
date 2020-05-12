@@ -42,25 +42,28 @@ body {
 }
 
 h1 {
-  text-transform: lowercase;
   color: var(--text-hc);
   font-weight: 600;
   font-size: 48px;
   line-height: 150%;
 }
 h2 {
-  text-transform: lowercase;
   color: var(--text-lc);
   font-weight: 500;
   font-size: 40px;
   line-height: 150%;
 }
 h3 {
-  text-transform: lowercase;
   color: var(--text-vlc);
   font-weight: 500;
   font-size: 32px;
   line-height: 150%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 175%;
+  color: var(--text-lc);
 }
 
 a {
@@ -72,7 +75,11 @@ a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 991px) {
+.msft {
+  color: #7fba00;
+}
+
+@media screen and (max-width: 959px) {
   h1 {
     font-size: 32px;
   }
@@ -83,15 +90,7 @@ a:hover {
   h3 {
     font-size: 18px;
   }
-}
-
-.msft {
-  color: #7fba00;
-}
-
-.body-text {
-  font-size: 18px;
-  line-height: 175%;
-
-  color: var(--text-lc);
+  p {
+    font-size: 16px;
+  }
 }
