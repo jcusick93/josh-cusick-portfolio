@@ -2,10 +2,11 @@ import React from "react";
 import "./Card.css";
 import { Badge } from "../Badge/Badge";
 import Image from "../Image/Image";
+import { NavLink } from "react-router-dom";
 
 function Card(props) {
   return (
-    <a href="/compass-design-system" className="card">
+    <NavLink to="/compass-design-system" className="card">
       {props.children}
 
       <Badge
@@ -18,7 +19,7 @@ function Card(props) {
         <h1>{props.title}</h1>
         <span>{props.content}</span>
       </div>
-    </a>
+    </NavLink>
   );
 }
 
