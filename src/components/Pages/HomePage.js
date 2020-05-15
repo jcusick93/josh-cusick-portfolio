@@ -16,32 +16,32 @@ const HomePage = () => {
       <h3 style={{ marginTop: 64 }}>Featured Projects</h3>
       <div className="grid">
         <Card
+          styleName="badge-orange"
           image={Img1}
           badgeText="Design System"
           title="Compass Design System"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          linkText="read case study"
         />
         <Card
           image={Img2}
+          styleName="badge-pink"
           badgeText="Mobile App"
           title="Backyard App"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          linkText="read case study"
         />
         <Card
           image={Img3}
+          styleName="badge-green"
           badgeText="Website"
           title="Fairworlds.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          linkText="see website"
         />
         <Card
           image={Img4}
+          styleName="badge-green"
           badgeText="Website"
           title="Kimweed.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-          linkText="see website"
         />
       </div>
     </div>

@@ -28,7 +28,6 @@
 }
 
 .card-title h1 {
-  text-transform: lowercase;
   color: var(--text-lc);
   font-weight: 400;
   font-size: 22px;
