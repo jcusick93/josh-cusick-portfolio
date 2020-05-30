@@ -1,15 +1,13 @@
 import React from "react";
 import Image from "../Image/Image";
-import { Badge } from "../Badge/Badge";
 
 const placeHolder =
   "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80";
 const CompassDesignSystem = () => {
   return (
     <div>
-      <Badge marginTop={32} badgeText="design system" />
       <h1>Compass Design System</h1>
-      <Image height="44vh" image={placeHolder} />
+      <Image borderRadius={4} height="44vh" image={placeHolder} />
       <h2>Heading h2</h2>
 
       <p className="body-text">

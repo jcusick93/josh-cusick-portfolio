@@ -2,20 +2,23 @@ import React from "react";
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import Toggle from "../Toggle/Toggle";
+import Img1 from "../../Images/josh-emoji.png";
 
 const NavBar = () => (
-  <div className="nav-bar-container">
-    <NavLink to="/" className="nav-logo">
-      Josh Cusick
-    </NavLink>
-    <div className="nav-links-group">
-      <NavLink to="/" className="nav-link">
-        Projects
+  <div id="nav-bar">
+    <div className="nav-bar-inner">
+      <NavLink to="/" className="nav-logo">
+        <img style={{ height: 64 }} alt="emoji of Josh Cusick" src={Img1} />
       </NavLink>
-      <NavLink to="/about" className="nav-link">
-        About
-      </NavLink>
-      <Toggle />
+      <div className="nav-links-group">
+        <NavLink to="/" className="nav-link">
+          Projects
+        </NavLink>
+        <NavLink to="/about" className="nav-link">
+          About
+        </NavLink>
+        <Toggle />
+      </div>
     </div>
   </div>
 );

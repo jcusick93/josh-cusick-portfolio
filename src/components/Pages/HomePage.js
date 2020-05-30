@@ -11,35 +11,28 @@ const HomePage = () => {
       <h1>
         Hello there I’m Josh, a UX Designer at{" "}
         <span className="msft">Microsoft</span>. I build design systems & I love
-        my corgi.
+        my Corgi.
       </h1>
-      <h3 style={{ marginTop: 64 }}>Featured Projects</h3>
+      <h3 style={{ marginTop: 64, marginBottom: 16 }}>Featured Projects</h3>
+
       <div className="grid">
         <Card
-          styleName="badge-orange"
           image={Img1}
-          badgeText="Design System"
           title="Compass Design System"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          content="I was the founding UX Designer of the Compass Design System at EagleView. My toolkit consisted of Figma, React.js, Material UI, and more."
         />
         <Card
           image={Img2}
-          styleName="badge-pink"
-          badgeText="Mobile App"
           title="Backyard App"
-          content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          content="I designed a mobile app with augmented reality to create and visualize swimming pools in backyards. The V1 was successfully shipped to the App Store."
         />
         <Card
           image={Img3}
-          styleName="badge-green"
-          badgeText="Website"
           title="Fairworlds.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
         />
         <Card
           image={Img4}
-          styleName="badge-green"
-          badgeText="Website"
           title="Kimweed.com"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
         />

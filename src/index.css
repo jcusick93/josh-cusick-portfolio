@@ -1,22 +1,36 @@
 :root {
+  /* static colors */
   --primary-lighter: #e8e9fc;
   --primary-darker: #0004b0;
-  --skeleton-background: #eff1f3;
-  --skeleton-highlight: #e2e2e2;
+
+  /* elevaton styles */
+  --elevation-outlined: solid 2px var(--lines);
+  --elevation-01: 0px 1px 3px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  --elevation-02: 0px 1px 8px rgba(0, 0, 0, 0.2),
+    0px 3px 4px rgba(0, 0, 0, 0.12), 0px 3px 3px rgba(0, 0, 0, 0.14);
+  --elevation-03: 0px 4px 5px rgba(0, 0, 0, 0.2),
+    0px 3px 14px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.14);
+  --elevation-04: 0px 11px 15px rgba(0, 0, 0, 0.2),
+    0px 9px 46px rgba(0, 0, 0, 0.12), 0px 24px 38px rgba(0, 0, 0, 0.14);
+
+  /* motion */
+  --move-slow: 500ms cubic-bezier(0.4, 0.14, 0.3, 1);
+  --move-medium: 200ms cubic-bezier(0.4, 0.14, 0.3, 1);
+  --move-fast: 100ms cubic-bezier(0.2, 0, 0.38, 0.9);
 }
 
 [data-theme="light"] {
-  --primary: #1444e3;
+  --primary: rgb(20, 68, 227);
   --on-primary: #ffffff;
   --text-hc: #121624;
   --text-lc: #414550;
   --text-vlc: #71737c;
-  --surface-00: #e0e1e4;
-  --surface-01: #f2f2f2;
-  --surface-02: #ffffff;
-  --surface-03: #ffffff;
-  --lightbulb: #121624;
-  --sparkle: transparent;
+  --lines: #d0d0d3;
+  --surface-00: #f5f5f5;
+  --surface-01: #f5f5f5;
+  --surface-02: #f5f5f5;
+  --surface-03: #f5f5f5;
 }
 
 [data-theme="dark"] {
@@ -25,26 +39,34 @@
   --text-hc: #ffffff;
   --text-lc: #d0d0d3;
   --text-vlc: #a0a2a7;
+  --lines: #414550;
   --surface-00: #121624;
   --surface-01: #232633;
   --surface-02: #272b38;
   --surface-03: #383b47;
-  --lightbulb: #ffb200;
-  --sparkle: #ffb200;
 }
 
 body {
   color: var(--text-hc);
   background-color: var(--surface-00);
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   line-height: 150%;
+  transition: all var(--move-medium);
+}
+::selection {
+  color: #ffffff;
+  background-color: var(--primary);
+}
+::-moz-selection {
+  color: #ffffff;
+  background-color: var(--primary);
 }
 
 h1 {
   color: var(--text-hc);
-  font-weight: 600;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 44px;
   line-height: 150%;
 }
 h2 {
@@ -55,15 +77,16 @@ h2 {
 }
 h3 {
   color: var(--text-vlc);
-  font-weight: 500;
-  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 150%;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 175%;
-  color: var(--text-lc);
+  color: var(--text-vlc);
 }
 
 a {
@@ -73,6 +96,15 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* adds custom border outline */
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline-color: rgba(20, 68, 227, 0.4);
 }
 
 .msft {
@@ -91,6 +123,6 @@ a:hover {
     font-size: 18px;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }

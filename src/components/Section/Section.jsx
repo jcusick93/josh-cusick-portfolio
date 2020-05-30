@@ -1,8 +1,11 @@
 import React from "react";
 import "./Section.css";
+import Box from "ui-box";
 
 const Section = (props) => (
-  <section className="section">{props.children}</section>
+  <Box is="section" {...props} className="section">
+    {props.children}
+  </Box>
 );
 
 export default Section;

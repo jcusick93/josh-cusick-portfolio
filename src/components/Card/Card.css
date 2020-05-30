@@ -2,38 +2,40 @@
   text-decoration: none;
   overflow: hidden;
   position: relative;
-  background-color: var(--surface-03);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 24px;
-  transition: box-shadow 100ms ease-in-out;
-  width: auto;
+  background-color: var(--surface-01);
 
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  transition: all var(--move-medium);
+  width: auto;
+  border: var(--elevation-outlined);
   border-radius: 4px;
 }
 
 .card:hover {
+  background-color: var(--surface-02);
   text-decoration: none;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: var(--elevation-02);
 }
 
-.card-title {
-  padding: 16px;
-  color: var(--text-vlc);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
+.card:hover h1 {
+  color: var(--text-hc);
 }
 
-.card-title h1 {
+.card:hover span {
   color: var(--text-lc);
+}
+
+.card-text-container {
+  padding: 16px 16px 24px;
+}
+
+.card h1 {
+  color: var(--text-hc);
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
 }
 
-.card-link {
-  float: right;
+.card span {
+  font-size: 16px;
+  color: var(--text-vlc);
 }

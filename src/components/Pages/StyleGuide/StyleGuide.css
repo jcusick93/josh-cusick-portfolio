@@ -1,0 +1,15 @@
+.variable-container {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  border-bottom: solid 1px var(--lines);
+  align-items: center;
+}
+
+.swatch {
+  background-color: var(--surface-03);
+  margin-right: 16px;
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+}

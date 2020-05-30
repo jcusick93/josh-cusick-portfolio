@@ -15,7 +15,7 @@ function Card(props) {
         badgeText={props.badgeText}
       />
       <Image height="24vh" image={props.image} />
-      <div className="card-title">
+      <div className="card-text-container">
         <h1>{props.title}</h1>
         <span>{props.content}</span>
       </div>
