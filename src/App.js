@@ -16,7 +16,7 @@ const App = () => (
     <ScrollToTop />
     <NavBar />
 
-    <Section marginTop={120}>
+    <Section>
       <Switch>
         {" "}
         <Route path="/" component={HomePage} exact />

@@ -8,7 +8,7 @@ const NavBar = () => (
   <div id="nav-bar">
     <div className="nav-bar-inner">
       <NavLink to="/" className="nav-logo">
-        <img style={{ height: 64 }} alt="emoji of Josh Cusick" src={Img1} />
+        <img className="nav-image" alt="emoji of Josh Cusick" src={Img1} />
       </NavLink>
       <div className="nav-links-group">
         <NavLink to="/" className="nav-link">
