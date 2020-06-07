@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 import { Badge } from "../Badge/Badge";
-import Image from "../Image/Image";
+import BlurImage from "../BlurImage/BlurImage";
 import { NavLink } from "react-router-dom";
 
 function Card(props) {
@@ -14,7 +14,14 @@ function Card(props) {
         margin={16}
         badgeText={props.badgeText}
       />
-      <Image height="24vh" image={props.image} />
+      <div className="image-container">
+        <BlurImage
+          height="24vh"
+          src={props.src}
+          alt={props.alt}
+          base64={props.base64}
+        />
+      </div>
       <div className="card-text-container">
         <h1>{props.title}</h1>
         <span>{props.content}</span>

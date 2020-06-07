@@ -7,23 +7,6 @@
   color: var(--text-vlc);
   background-color: transparent;
   border: solid 1px var(--text-vlc);
-  /* color: var(--primary-darker);
-  background-color: var(--primary-lighter); */
   padding: 2px 8px;
   border-radius: 24px;
-}
-
-.badge-pink {
-  background-color: #ffe3f4;
-  color: #cf027d;
-}
-
-.badge-orange {
-  background-color: #ffeae6;
-  color: #cf2902;
-}
-
-.badge-green {
-  background-color: #efffeb;
-  color: #1f9900;
 }

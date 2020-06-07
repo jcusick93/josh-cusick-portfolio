@@ -16,8 +16,14 @@
 
   /* motion */
   --move-slow: 500ms cubic-bezier(0.4, 0.14, 0.3, 1);
-  --move-medium: 200ms cubic-bezier(0.4, 0.14, 0.3, 1);
-  --move-fast: 100ms cubic-bezier(0.2, 0, 0.38, 0.9);
+  --move-medium: 250ms cubic-bezier(0.4, 0.14, 0.3, 1);
+  --move-fast: 150ms cubic-bezier(0.2, 0, 0.38, 0.9);
+
+  /* border radius */
+  --br-small: 4px;
+  --br-medium: 6px;
+  --br-large: 24px;
+  --br-full: 100%;
 }
 
 [data-theme="light"] {
@@ -54,6 +60,9 @@ body {
   line-height: 150%;
   transition: all var(--move-medium);
 }
+
+/* custom hightlight on text */
+
 ::selection {
   color: #ffffff;
   background-color: var(--primary);
@@ -89,6 +98,15 @@ p {
   color: var(--text-vlc);
 }
 
+code {
+  font-size: 20px;
+  line-height: 175%;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #0a0c12;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
 a {
   color: var(--primary);
   text-decoration: none;
@@ -119,10 +137,9 @@ textarea:focus {
   h2 {
     font-size: 24px;
   }
-  h3 {
-    font-size: 18px;
-  }
-  p {
+  h3,
+  p,
+  code {
     font-size: 18px;
   }
 }

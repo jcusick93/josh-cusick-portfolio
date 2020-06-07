@@ -3,11 +3,22 @@
   overflow: hidden;
   position: relative;
   background-color: var(--surface-01);
-
   transition: all var(--move-medium);
   width: auto;
   border: var(--elevation-outlined);
-  border-radius: 4px;
+  border-radius: var(--br-medium);
+}
+
+.image {
+  transition: all var(--move-slow);
+}
+
+.image-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 24vh;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -16,12 +27,11 @@
   box-shadow: var(--elevation-02);
 }
 
-.card:hover h1 {
-  color: var(--text-hc);
+.background-image {
+  transition: var(--move-slow);
 }
-
-.card:hover span {
-  color: var(--text-lc);
+.card:hover .image {
+  transform: scale(1.1);
 }
 
 .card-text-container {
