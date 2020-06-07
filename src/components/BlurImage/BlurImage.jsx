@@ -36,7 +36,7 @@ export default class BlurImage extends React.Component {
     return (
       <Box
         is="img"
-        className="image"
+        className="blur-image"
         {...this.props}
         alt={this.props.alt}
         src={currentSrc}

@@ -15,7 +15,6 @@ const CompassDesignSystem = () => {
       <BlurImage
         alt="red mountains with snow"
         borderRadius="var(--br-large)"
-        height="20vh"
         src={placeHolder}
         base64={placeHolderBase64}
       />
@@ -35,7 +34,6 @@ const CompassDesignSystem = () => {
       <BlurImage
         alt="red mountains with snow"
         borderRadius="var(--br-large)"
-        height="20vh"
         src={placeHolder}
         base64={placeHolderBase64}
       />

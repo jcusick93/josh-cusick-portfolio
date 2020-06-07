@@ -8,8 +8,9 @@
   border: var(--elevation-outlined);
   border-radius: var(--br-medium);
 }
-
-.image {
+.card img {
+  width: 100%;
+  height: auto;
   transition: all var(--move-slow);
 }
 
