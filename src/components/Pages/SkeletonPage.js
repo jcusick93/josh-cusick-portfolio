@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../Images/project-img-01.png";
 import ImageContainer from "../ImageContainer/ImageContainer";
 
-const CompassDesignSystemPage = () => {
+const Skeleton = () => {
   return (
     <div>
       <ImageContainer src={Img1} alt="array of UI components" />
@@ -39,4 +39,4 @@ const CompassDesignSystemPage = () => {
   );
 };
 
-export default CompassDesignSystemPage;
+export default Skeleton;

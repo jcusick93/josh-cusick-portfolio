@@ -36,7 +36,6 @@ function Toggle() {
 
   return (
     <div class="container">
-      <span>Dark Mode</span>
       <label id="switch" class="switch">
         <input
           checked={isDark}

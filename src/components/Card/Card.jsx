@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 function Card(props) {
   return (
-    <NavLink to="/compass-design-system" className="card">
+    <NavLink to={props.page} className="card">
       {props.children}
 
       <Badge

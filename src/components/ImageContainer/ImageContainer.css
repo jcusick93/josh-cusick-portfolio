@@ -1,0 +1,14 @@
+.img-container {
+  border-radius: var(--br-medium);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.nested-img {
+  width: 100%;
+  height: auto;
+}

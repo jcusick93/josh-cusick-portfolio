@@ -5,10 +5,10 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./components/Pages/HomePage";
 import AboutPage from "./components/Pages/AboutPage";
 import CompassDesignSystemPage from "./components/Pages/CompassDesignSystemPage";
+import SkeletonPage from "./components/Pages/SkeletonPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { NavBar } from "./components/NavBar/NavBar";
 import Section from "./components/Section/Section";
-import Pane from "./components/Pane/Pane";
 import StyleGuidePage from "./components/Pages/StyleGuide/StyleGuidePage";
 
 const App = () => (
@@ -26,9 +26,9 @@ const App = () => (
           path="/compass-design-system"
           component={CompassDesignSystemPage}
         />
+        <Route path="/skeleton" component={SkeletonPage} />
       </Switch>
     </Section>
-
     <Footer />
   </BrowserRouter>
 );
