@@ -1,6 +1,6 @@
 import React from "react";
 import "./Toggle.css";
-import Icon from "../Icon/Icon";
+
 setGlobalTheme(getInitialMode());
 function getInitialMode() {
   const isReturningUser = "theme" in localStorage;
